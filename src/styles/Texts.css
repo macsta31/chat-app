@@ -1,0 +1,31 @@
+.mytext-box{
+    border:2px solid black;
+    background-color: transparent;
+    border-radius: 8px;
+    align-self: flex-end;
+    
+}
+
+.text-box{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+    padding:10px;
+    
+}
+.text-box > p {
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.othertext-box{
+    border:2px solid black;
+    background-color: #1565c0;
+    border-radius: 8px;
+    color:white;
+    align-self: flex-start;
+}
